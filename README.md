@@ -1,6 +1,6 @@
 # javascript-placement
 
-<uch lik CSS, JavaScript can be placed into a HTML document using three different mthods:
+Much lik CSS, JavaScript can be placed into a HTML document using three different mthods:
 
 1. Inline
 2. Internal
