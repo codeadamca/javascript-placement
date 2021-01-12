@@ -1,6 +1,6 @@
 # javascript-placement
 
-Much lik CSS, JavaScript can be placed into a HTML document using three different mthods:
+Much like CSS, JavaScript can be placed into an HTML document using three different mthods:
 
 1. Inline
 2. Internal
@@ -8,7 +8,7 @@ Much lik CSS, JavaScript can be placed into a HTML document using three differen
 
 ## Inline
 
-JavaScript can be placed inside an HTML tag using an event:
+JavaScript can be placed inside an HTML tag using an event attribute:
 
 - onclick
 - onmouseover
@@ -30,15 +30,15 @@ Test the HTML file using a browser. You should see an alert message by clicking 
 
 ## Internal
 
-JavaScript can be placed inside an HTML document by adding JavaScript code inside a `<script` tag.
+JavaScript can be placed inside an HTML document by adding JavaScript code inside a `script` tag.
 
 Create a new HTML document, name it `internal.html`, add the standard HTML elements, and inside the `body` tag add the following code:
 
 ```html
 <script>
 
-document.write( "<h1>Embedded JavaScript</h1>" );
-document.write( "<p>This is embedded JavaScript!</p>" );
+document.write("<h1>Embedded JavaScript</h1>");
+document.write("<p>This is embedded JavaScript!</p>");
 
 </script>
 ```
@@ -52,8 +52,8 @@ JavaScript can be placed inside an external JavaScript file.
 Create a new JavaScript file and name it external.js. When placing JavaScript inside an external JavaScript file, you do not need to include `script` tags. Add the following code:
 
 ```javascript
-document.write( "<h1>External JavaScript</h1>" );
-document.write( "<p>This content comes from an external JavaScript file!</p>" );
+document.write("<h1>External JavaScript</h1>");
+document.write("<p>This content comes from an external JavaScript file!</p>");
 ```
 
 Next, create an HTML file, name it external.html, add the standard HTML elements, and then add the following code to the `body` section:
