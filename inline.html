@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Inline JavaScript</title>
+</head>
+<body>
+
+    <h1>Inline JavaScript</h1>
+    
+    <p>Inline JavaScript is placed in an HTML tag using a JavaScript
+        event attribute.</p>
+    
+    <!--
+    JavaScript can be placed inside an HTML tag using an event:
+    - onclick
+    - onmouseover
+    Or using an href and prefixing your JavaScript code with "javascript:".
+    -->
+
+    <input type="button" onclick="alert('This is inline JavaScript!');"
+        value="Click Me">
+    
+    <br><br>
+    
+    <a href="javascript:alert('This is also inline JavaScript');void(0);">
+        Click Me
+    </a>
+
+</body>
+</html>
