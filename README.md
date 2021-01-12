@@ -1,43 +1,74 @@
 # javascript-placement
 
-JavaScript is a scripting computer programming language commonly used to create interactive effects within web browsers.
+<uch lik CSS, JavaScript can be placed into a HTML document using three different mthods:
 
-This sample file will display a "Hello World!" message when the button is clicked. 
+1. Inline
+2. Internal
+3. External
 
-## Steps
+## Inline
 
-1. Create a new HTML file and name it hello-world.html.
-2. Add the following HTML:
+JavaScript can be placed inside an HTML tag using an event:
+
+- onclick
+- onmouseover
+- onsubmit
+
+Or inside an `href` attribute by prefixing it with `javascript:`.
+
+Create a new HTML document, name is `inline.html`, add the standard HTML elements, and inside the `body` tag add the following code:
+
+```html
+<input type="button" onclick="alert('This is inline JavaScript!');" value="Click Me">
+
+<br><br>
+
+<a href="javascript:alert('This is also inline JavaScript');void(0);">Click Me</a>
+```
+
+Test the HTML file using a browser. You should see an alert message by clicking either the button or link.
+
+## Internal
+
+JavaScript can be placed inside an HTML document by adding JavaScript code inside a `<script` tag.
+
+Create a new HTML document, name it `internal.html`, add the standard HTML elements, and inside the `body` tag add the following code:
+
+```html
+<script>
+
+document.write( "<h1>Embedded JavaScript</h1>" );
+document.write( "<p>This is embedded JavaScript!</p>" );
+
+</script>
+```
+
+Test the HTML file using a browser, the `body` section of the webpage should have an additional heading and paragraph.
+
+## External
+
+JavaScript can be placed inside an external JavaScript file. 
+
+Create a new JavaScript file and name it external.js. When placing JavaScript inside an external JavaScript file, you do not need to include `script` tags. Add the following code:
 
 ```javascript
-<!doctype html>
-<html>
-<head>
-    <title>JavaScript Hello World!</title>
-</head>
-<body>
-
-    <h1>JavaScript Hello World!</h1>
-
-    <button onclick="alert('Hello World!');">Clck Me</button>
-
-</body>
-</html>
+document.write( "<h1>External JavaScript</h1>" );
+document.write( "<p>This content comes from an external JavaScript file!</p>" );
 ```
 
-3. Save the file and test in a browser.
-4. Try uploading this file to your hosting and then test it using your domain name. It will look something like this:
+Next, create an HTML file, name it external.html, add the standard HTML elements, and then add the following code to the `body` section:
 
+```html
+<script src="external.js"></script>
 ```
-http://www.domain.com/folder/hello-world.html
-```
+
+Test the file using a browser, the `body` section of the webpage should have an additional heading and paragraph.
 
 ## Tutorial Requirements:
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
-* [Filezilla](https://filezilla-project.org/) (or any FTP program)
 
-Full tutorial URL: https://codeadam.ca/learning/javascript-hello-world.html
+Full tutorial URL: https://codeadam.ca/learning/javascript-placement.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
