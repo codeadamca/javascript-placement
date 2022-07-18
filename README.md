@@ -1,4 +1,4 @@
-# javascript-placement
+# A Basic Introduction to Including JavaScript in an HTML Document
 
 Much like CSS, JavaScript can be placed into an HTML document using three different mthods:
 
