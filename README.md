@@ -64,11 +64,14 @@ Next, create an HTML file, name it external.html, add the standard HTML elements
 
 Test the file using a browser, the `body` section of the webpage should have an additional heading and paragraph.
 
-## Tutorial Requirements:
+> Full tutorial URL:  
+> https://codeadam.ca/learning/javascript-placement.html
+
+***
+
+## Repo Resources
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
-
-Full tutorial URL: https://codeadam.ca/learning/javascript-placement.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
